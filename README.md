@@ -25,9 +25,29 @@ The following **required** functionality is completed:
   * [x]  Required: Repair the create and verify signature code
   
 6\. Encrypted Message 2
-  * [ ]  Required: Decrypt the message
-  * [ ]  Required: Verify the message
-  * [ ]  Required: Include a response message in this README
+  * [x]  Required: Decrypt the message
+  * [x]  Required: Verify the message
+  * [x]  Required: Include a response message in this README
+    * To: sydneybristow
+From: agent99
+Subject: Encrypted and Signed Message
+Body:
+
+68bP7ROc0+A+30CoeFUKTXdKpL3vw7BBQ+nHeZ8GCjzxJzDz//tXDDPF+Icj7EjGk/EKRiuGHRZtIqLAvfgcRftPZIHhl6vX56knjQasdZm0ufA37w96NnWDI5QaakngI79UWtOqcDvYFWbTxpeacoF2vIu4PamsY9nA2yS0r9qVPAlVyScmxdBGzJgDd8yQ4JXC6xRWowOMqJd1v3gt5yMdZgjxLe1XKgON1x15LHpwkPHKatXA1iWcACWJp1rvK5dBMrabnvLyk46K1/T++kOuH2PPnZLBbAl/dMZWl32GU4TnCqQd2yDUCqCxOTnwFYGIq50WNnapsWW8TTECRA==
+
+Signature:
+K8+Zj3ij31mGj5K7c4kRpJW1pvXC9pnlohGMVQCBgWcA75NehyMaVQTt3D6sZxNzDoq3h1L+sHTY1yajSLJOu7Yn570ZoQLN1RmCG7ZzRoOUI6H7k+qgXCmomF5CiVwXHw0FB8gXWT8pBxLVTjJ9sI4GoFjhko4zwlBZGpoFK24EMYxARIIahLk9SbnmfSqGiRrB9SPvNjJQMBA2R3XLGTfAFRg7/s7/hpQyATH81PYYLoa+5gc8C9HUi/x78KJGxF1zjsu4EpjJIY/arnXRTmg3Fn9KwduMSuioRzrEJSvZsRc6RB1tcWQn6uQ9klmsNOv3wswn9fQ8VnH/0MfIOg==
+
+Public Key:
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7CnJ5KzmzNpGmclN1l0K
+K4A8UJcwbMHfv0dTCwvTWiNWyE95UtiBUTuqktTjiT191+6hCCianuMP7CB+h5Fe
+8Mk/d91SxiitGIdbE+W5E2lDSyZK11elsinCpgY0IQ/7jWGM/OmHa7UcgJSFjIS+
+5jNa/e3wFw361iQKCKTZT0SYgXY5eJDjyqLJ5xpnyZ6RmrvHwtS1rm746kF//69Y
+RdzuUc5LsBDBXVZhCkH7DNzt3Y9PRpLsJlGF4kj544+0hfXA0oqlllSEWIiugZVM
+rkXSEa5KzeMeZSSC/vWRBER/V1p41Tx8Wwjwhcy/v18PhlNuTnyg5j3sgr1ndyyA
+hwIDAQAB
+-----END PUBLIC KEY-----
 
 7\. Agent Messages
   * [ ]  Required: Repair the dropbox code
