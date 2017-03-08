@@ -69,7 +69,7 @@ The following objectives are **optional**:
 * Bonus Objective 2\.
   * [x]  Write a report of your discoveries (longer than 300 characters).
   * [x]  Compose a secure email for sending over an insecure network.
-  * [x]  Include the email with your [encrypted report]("./APEXReport.txt") in this README.
+  * [x]  Include the email with your [encrypted report](./APEXReport.txt) in this README.
 
 * Bonus Objective 3\.
   * [ ]  Add a "Create/Verify Checksum" section to the Encryption Tools area.
