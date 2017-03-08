@@ -64,12 +64,12 @@ hwIDAQAB
 The following objectives are **optional**:
 
 * Bonus Objective 1\.
-  * [ ]  Track down the bugs in the code and fix them.
+  * [x]  Track down the bugs in the code and fix them.
 
 * Bonus Objective 2\.
-  * [ ]  Write a report of your discoveries (longer than 300 characters).
-  * [ ]  Compose a secure email for sending over an insecure network.
-  * [ ]  Include the email with your encrypted report in this README.
+  * [x]  Write a report of your discoveries (longer than 300 characters).
+  * [x]  Compose a secure email for sending over an insecure network.
+  * [x]  Include the email with your [encrypted report] ("/APEXReport.txt") n this README.
 
 * Bonus Objective 3\.
   * [ ]  Add a "Create/Verify Checksum" section to the Encryption Tools area.
