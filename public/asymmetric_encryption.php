@@ -10,22 +10,22 @@
   $decrypted_text = '';
 
   if(isset($_POST['submit'])) {
-  
+
     if(isset($_POST['public_key'])) {
-    
+
       // This is an encode request
-      $plain_text = isset($_POST['plain_text']) ? $_POST['plain_text'] : nil;
-      $public_key = isset($_POST['public_key']) ? $_POST['public_key'] : nil;
+      $plain_text = isset($_POST['plain_text']) ? h($_POST['plain_text']) : nil;
+      $public_key = isset($_POST['public_key']) ? h($_POST['public_key']) : nil;
       $encrypted_text = pkey_encrypt($plain_text, $public_key);
       $cipher_text = $encrypted_text;
-    
+
     } else {
-    
+
       // This is a decode request
-      $cipher_text = isset($_POST['cipher_text']) ? $_POST['cipher_text'] : nil;
-      $private_key = isset($_POST['private_key']) ? $_POST['private_key'] : nil;
+      $cipher_text = isset($_POST['cipher_text']) ? h($_POST['cipher_text']) : nil;
+      $private_key = isset($_POST['private_key']) ? h($_POST['private_key']) : nil;
       $decrypted_text = pkey_decrypt($cipher_text, $private_key);
-    
+
     }
   }
 
@@ -41,12 +41,12 @@
     <link rel="stylesheet" media="all" href="includes/styles.css" />
   </head>
   <body>
-    
+
     <a href="index.php">Main menu</a>
     <br/>
 
     <h1>Asymmetric Encryption</h1>
-    
+
     <div id="encoder">
       <h2>Encrypt</h2>
 
@@ -65,13 +65,13 @@
           <input type="submit" name="submit" value="Encrypt">
         </div>
       </form>
-    
+
       <div class="result"><?php echo h($encrypted_text); ?></div>
       <div style="clear:both;"></div>
     </div>
-    
+
     <hr />
-    
+
     <div id="decoder">
       <h2>Decrypt</h2>
 
@@ -92,6 +92,6 @@
       <div class="result"><?php echo h($decrypted_text); ?></div>
       <div style="clear:both;"></div>
     </div>
-    
+
   </body>
 </html>
