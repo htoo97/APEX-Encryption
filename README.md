@@ -1,6 +1,6 @@
 # Project 5 - Encryption
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -72,7 +72,7 @@ The following objectives are **optional**:
   * [x]  Include the email with your [encrypted report](./APEXReport.txt) in this README.
 
 * Bonus Objective 3\.
-  * [ ]  Add a "Create/Verify Checksum" section to the Encryption Tools area.
+  * [x]  Add a "Create/Verify Checksum" section to the Encryption Tools area.
 
 * Advanced Objective 1\.
   * [ ]  Add support for other symmetric algorithms.
